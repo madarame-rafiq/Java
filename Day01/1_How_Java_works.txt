@@ -1,0 +1,20 @@
+Components of Java:-
+    JDK (Java Development Kit) => Compiles and runs java programms, inlcudes JRE + Development tools.
+    JRE (Java Runtime Environment) => It runs java application.
+    JVM (Java Virtual Machine) => Executes java bytecode.
+
+
+JVM:-
+    Runs java code and interacts with OS/CPU.
+    It runs .class files.
+    execution:-
+        interpretations.
+        JIT (Just In Time) compilation.
+    **JVM is platform specific (Java is platform indepandat, but JVM is platform depandant).
+
+
+**How it actually works
+1. You write a code in java hello.java.
+2. Compile code using JDK --> javac hello.java --> produces java.class (bytecode).
+3. Run code using JRE, which internally uses JVM --> java hello.
+4. JVM executes bytecode --> prints Hello World!!.
