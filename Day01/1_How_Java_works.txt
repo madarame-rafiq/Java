@@ -17,4 +17,4 @@ JVM:-
 1. You write a code in java hello.java.
 2. Compile code using JDK --> javac hello.java --> produces java.class (bytecode).
 3. Run code using JRE, which internally uses JVM --> java hello.
-4. JVM executes bytecode --> prints Hello World!!.
+4. JVM executes bytecode --> prints Hello World!!.h

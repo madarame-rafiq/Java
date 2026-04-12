@@ -1,0 +1,69 @@
+Java Identifiers: The Naming System
+In simple terms, an Identifier is just a "Name." Just as every person has a name to identify them, every element in a Java program needs a name so the computer knows which one you are talking about.
+
+1. What is an Identifier?
+An identifier is a word used to identify:
+Variables: (e.g., int age = 25; → age is the identifier)
+Methods: (e.g., void calculateTotal() → calculateTotal is the identifier)
+Classes: (e.g., class Student → Student is the identifier)
+Interfaces: (e.g., interface Playable → Playable is the identifier)
+
+2. Rules for Creating Identifiers
+You can't just name things anything you want! Java has strict rules (grammar) for identifiers:
+Allowed Characters: You can use Alphabets (a-z, A-Z), Digits (0-9), Underscore (_), and Dollar sign ($).
+It must begins with alphabet, underscore symbol or dollar symbol
+✅ _total123 is valid.
+❌ 123total is invalid.
+
+Case Sensitive: Java treats uppercase and lowercase differently.
+Number and number are two different identifiers.
+No Reserved Words: You cannot use Java "Keywords" (like int, class, public, if) as identifiers because they already have a special meaning in Java.
+No Spaces: You cannot have spaces within a name.
+✅ my_variable or myVariable
+❌ my variable
+
+
+
+
+
+
+Java Literals: The Fixed Values
+A literal is the actual constant value in a program. While a variable stores values that can change, a literal is the value itself and never changes.
+Example: In int x = 100;
+x is the Identifier (the name).
+100 is the Literal (the actual value).
+
+2. Common Categories of Literals
+To keep things organized, Java divides literals based on the type of data they represent.
+
+A) Integer Literals
+These represent whole numbers (without any decimal point). They can be positive, negative, or zero.
+Examples: 15, 93, 0, -34, 1000.
+Use Case: Counting items, setting ages, or defining a loop limit.
+
+B) Floating Point Literals
+These represent real numbers or numbers that contain a fractional/decimal part.
+Examples: 5.23, 0.008, -2.343, 3.14.
+Use Case: Calculating percentages, prices, or scientific measurements.
+
+3) Character Literals
+These represent a single character (a letter, digit, or symbol).
+The Rule: Character literals must always be enclosed in single quotes (' ').
+Examples: 'a', 'A', '9', '%'.
+Important: Even a number like '0' is a character if it is in single quotes; it doesn't have a numeric value for math in this form.
+
+4) String Literals
+These represent a sequence of characters (words, sentences, or even numbers treated as text).
+The Rule: String literals must always be enclosed in double quotes (" ").
+Examples: "Hello", "welcome", "123", "5.3".
+Key Difference: While 'a' is a Character, "a" is a String.
+
+5) Boolean Literals
+These represent logical values or states. They are the simplest literals in Java because there are only two possible values.
+Values: true, false.
+Note: In Java, these must be lowercase. They represent "Yes/No" or "On/Off" conditions in your code.
+
+6) Object Literals (The null Literal)
+In Java, when we talk about literals for objects, we specifically refer to the null literal.
+Value: null.
+Definition: It represents a reference that does not point to any object. Think of it as an "empty" or "void" value for complex data types.
